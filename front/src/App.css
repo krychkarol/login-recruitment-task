@@ -1,0 +1,55 @@
+body {
+	margin: 0;
+	padding: 0;
+	background-image: linear-gradient(to bottom right, rgb(182, 182, 182), rgb(36, 36, 36));
+}
+
+.App {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+	width: 50vw;
+}
+
+input,
+button {
+	padding: 10px;
+	margin: 20px;
+	border-radius: 5px;
+	border: none;
+}
+
+.title {
+	text-align: center;
+	margin-bottom: 30px;
+	font-size: 3rem;
+	font-weight: bold;
+	color: white;
+}
+.err{
+	text-align: center;
+	color: red;
+	font-size: 2rem;
+}
+
+button:hover {
+	cursor: pointer;
+	background-color: rgb(185, 185, 185);
+	transition: all .1s ease;
+}
+
+.user{
+	display: flex;
+	flex-direction: column;
+}
+
+.data{
+	text-align: center;
+	font-size: 2rem;
+}
